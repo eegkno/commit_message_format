@@ -8,7 +8,7 @@ This is a proposal of tags to be used in commit messages. The goal is to identif
 
 Layout for a commit message
 ```
-tag|subtag: subject description
+[tag>subtag] subject description
 
 body: used to explain the what and why of a commit, not the how. Wrap the body at 72 characters in each line.
 
@@ -47,9 +47,9 @@ footer: used to reference issue tracker IDs.
 Those subtags are used in order to provide the action that the commit does
 
 >Example:
->  [api|new] Subject description
+>  [core>new] Subject description
 
-Can be used in combination with the tags: *api*, *main* and *test*
+Can be used in combination with the tags: *core*, *main* and *test*
 >* **new** when functionality has been added
 >* **change** when changes in code have been made
 >* **boost** when refactoring or improving performance
